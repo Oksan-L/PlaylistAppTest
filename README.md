@@ -62,7 +62,7 @@ npm run report
 
 The project is organized into separate folders for clear separation of concerns:
 
-\`\`\`text
+\`\`\`bash
 ├── constants/             # Test data (e.g., track names and durations)
 ├── pages/                 # Page Object Model classes (BasePage, PlaylistPage)
 ├── tests/                 # Test script files covering the core functionalities
