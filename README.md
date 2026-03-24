@@ -16,23 +16,23 @@ Make sure you have [Node.js](https://nodejs.org/) (version 16 or higher) install
 
 ### 1. Install Dependencies
 Clone the repository and install the required npm packages:
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 ### 2. Install Playwright Browsers
 Install the necessary browser binaries for Playwright:
-\`\`\`bash
+```bash
 npx playwright install --with-deps
-\`\`\`
+```
 
 ### 3. Environment Setup (.env)
 This project uses environment variables to manage the base URL. Since the `.env` file is not tracked in Git for security reasons, you need to create it locally.
 
 Create a `.env` file in the root directory of the project and add the following line (replace the URL with the actual app URL):
-\`\`\`env
+```env
 BASE_URL=https://<actual-playlist-app-url>
-\`\`\`
+```
 
 ---
 
@@ -41,20 +41,20 @@ BASE_URL=https://<actual-playlist-app-url>
 All tests can be executed using npm scripts defined in `package.json`.
 
 **Run all tests in headless mode (Default):**
-\`\`\`bash
+```bash
 npm run test
-\`\`\`
+```
 
 **Run tests in UI (headed) mode (visible browser):**
-\`\`\`bash
+```bash
 npm run test:headed
-\`\`\`
+```
 
 **View the HTML Report:**
 After running the tests, you can view the detailed HTML report (which includes traces if a test fails) by running:
-\`\`\`bash
+```bash
 npm run report
-\`\`\`
+```
 
 ---
 
