@@ -62,7 +62,7 @@ npm run report
 
 The project is organized into separate folders for clear separation of concerns:
 
-\`\`\`bash
+```text
 ├── constants/             # Test data (e.g., track names and durations)
 ├── pages/                 # Page Object Model classes (BasePage, PlaylistPage)
 ├── tests/                 # Test script files covering the core functionalities
@@ -70,7 +70,7 @@ The project is organized into separate folders for clear separation of concerns:
 ├── TEST_CASES.md          # Detailed manual test steps and expected results
 ├── playwright.config.js   # Playwright configuration and project settings
 └── package.json           # Dependencies and test scripts
-\`\`\`
+```
 
 ---
 
