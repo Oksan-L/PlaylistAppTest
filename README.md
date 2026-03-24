@@ -1,4 +1,4 @@
-# AQA Engineer Test Assessment - Playlist App
+# Playlist App
 
 This repository contains automated UI tests for the Playlist App.
 
